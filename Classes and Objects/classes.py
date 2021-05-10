@@ -8,7 +8,7 @@ class Category:
 
     def deposit(self, amount):
         self.amount += amount
-        return "You have successfully deposited {} in {} category".format(amount, self.category)
+        return "You have successfully deposited {} in {} category. Your current balance is {}".format(amount, self.category, self.amount)
 
     
     def budget_balance(self):
