@@ -24,7 +24,7 @@ class Category:
     
     def withdraw(self, amount):
         self.amount -= amount
-        return "You have successfully withdrawn {} in {} category".format(amount, self.category)
+        return "You have successfully withdrawn {} in {} category. Your current balance is {}".format(amount, self.category, self.amount)
 
 
     def transfer(self, amount, catergory):
